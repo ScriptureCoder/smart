@@ -1,0 +1,31 @@
+{
+  "name": "myexpress",
+  "version": "1.0.0",
+  "description": "just a sample app",
+  "main": "server.js",
+  "author": "Samson Akinfenwa",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "binaryjs": "^0.2.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.3",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.2.0",
+    "socket.io-redis": "^5.2.0",
+    "socket.io-stream": "^0.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha"
+  }
+}
